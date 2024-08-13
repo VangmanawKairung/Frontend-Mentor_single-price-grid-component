@@ -27,17 +27,17 @@ This is a solution to the [Single price grid component challenge on Frontend Men
 ### Screenshot
 <details>
 <summary><strong>Mobile View</strong></summary>
-<img src="./result/mobile view.png">
+<img src="source/result/mobile.png">
 </details>
 <details>
-<summary><strong>Descktop View</strong></summary>
-<img src="./result/desktop view.png">
+<summary><strong>Desktop View</strong></summary>
+<img src="source/result/desktop.png">
 </details>
 
 ### Links
 
 - Solution URL: [Single price grid component by HTML and CSS (Sass)](https://www.frontendmentor.io/solutions/single-price-grid-component-by-html-and-css-sass-lko1qj6JDz)
-- Live Site URL: [Single price grid component](https://vangmanawkairung.github.io/single-price-grid/)
+- Live Site URL: [Frontend Mentor | Single price grid component](https://vangmanawkairung.github.io/Frontend-Mentor_single-price-grid-component/)
 
 ## My process
 
