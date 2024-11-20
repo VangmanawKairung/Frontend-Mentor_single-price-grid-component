@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <title>Frontend Mentor | Single Price Grid Component</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
@@ -8,41 +9,51 @@
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="source/images/favicon-32x32.png"
+      href="./sources/images/favicon-32x32.png"
     />
-    <title>Frontend Mentor | Single Price Grid Component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div class="container">
-      <div class="first-box">
-        <div>Join our community</div>
-        <div>30-day, hassle-free money back guarantee</div>
-        <div>
+    <main class="container">
+      <section class="blog" id="first-blog">
+        <h2>Join our community</h2>
+        <p>30-day, hassle-free money back guarantee</p>
+        <p>
           Gain access to our full library of tutorials along with expert code
           reviews. Perfect for any developers who are serious about honing their
           skills.
-        </div>
-      </div>
-      <div class="second-box">
-        <div>Monthly Subscription</div>
-        <div>
-          <div>&dollar;29 <span>per month</span></div>
-          <div>Full access for less than &dollar;1 a day</div>
-        </div>
+        </p>
+      </section>
+      <section class="blog" id="second-blog">
+        <h2>Monthly Subscription</h2>
+        <p><span>&dollar;29</span> per month</p>
+        <p>Full access for less than &dollar;1 a day</p>
         <button>Sign Up</button>
-      </div>
-      <div class="third-box">
-        <div>Why Us</div>
+      </section>
+      <section class="blog" id="thrid-blog">
+        <h2>Why Us</h2>
         <p>
-          Tutorials by industry experts</br> 
-          Peer &amp; expert code review</br> 
-          Coding exercises</br> 
-          Access to our GitHub repos</br> 
-          Community forum</br> 
-          Flashcard decks</br>
+          Tutorials by industry experts<br />
+          Peer &amp; expert code review<br />
+          Coding exercises<br />
+          Access to our GitHub repos<br />
+          Community forum<br />
+          Flashcard decks<br />
           New videos every week
         </p>
-      </div>
-    </div>
+      </section>
+    </main>
+
+    <!-- <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Kairung Vangmanaw</a>.
+    </p>
+  </footer> -->
   </body>
 </html>
