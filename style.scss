@@ -1,0 +1,140 @@
+// Font
+$root-font-family: Karla;
+$root-font-size: 16px;
+$root-font-weight: 400;
+
+// Color
+$cyan: hsl(179, 62%, 43%);
+$bright-yellow: hsl(71, 73%, 54%);
+$light-gray: hsl(204, 43%, 93%);
+$grayish-blue: hsl(218, 22%, 67%);
+
+@mixin set-size($w, $h) {
+  width: $w;
+  height: $h;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: $root-font-family;
+  font-size: $root-font-size;
+  font-weight: $root-font-weight;
+  color: $light-gray;
+  border: none;
+}
+
+h1,
+h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: white;
+}
+
+section#community-section {
+  background-color: white;
+
+  h1 {
+    color: $cyan;
+  }
+
+  p.emphasis-text {
+    color: $bright-yellow;
+    font-weight: 700;
+  }
+
+  p {
+    color: $grayish-blue;
+  }
+}
+
+section#pricing-section {
+  background-color: $cyan;
+
+  p.price-rate {
+    color: rgba($color: $light-gray, $alpha: 0.5);
+
+    span {
+      color: white;
+      font-size: 2rem;
+    }
+  }
+
+  button {
+    background-color: $bright-yellow;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0 10px 10px 0 rgba($color: black, $alpha: 0.15);
+  }
+}
+
+section#advantages-section {
+  background-color: rgba($color: $cyan, $alpha: 0.8);
+}
+
+ul li {
+  list-style: none;
+}
+
+body {
+  @include set-size(100vw, 100vh);
+
+  background-color: $light-gray;
+
+  main.container {
+    @include set-size(311px, fit-content);
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+
+    display: grid;
+    grid-template-rows: 267px 1fr 1fr;
+    gap: 0;
+
+    box-shadow: 0 20px 50px -5px rgba($color: $grayish-blue, $alpha: 0.5);
+
+    section {
+      padding: 0 25px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    section#community-section {
+      border-radius: 5px 5px 0 0;
+      padding-top: 30px;
+      padding-bottom: 30px;
+
+      p {
+        font-size: 0.85rem;
+        line-height: 1.6rem;
+      }
+
+      p.emphasis-text {
+        font-size: 0.92rem;
+        line-height: 1.25rem;
+      }
+    }
+
+    section#pricing-section {
+      padding-top: 25px;
+      padding-bottom: 24px;
+
+      button {
+        @include set-size(100%, 48px);
+      }
+    }
+
+    section#advantages-section {
+      @include set-size(100%, 227px);
+
+      padding-top: 28px;
+      padding-bottom: 25px;
+      border-radius: 0 0 5px 5px;
+    }
+  }
+}

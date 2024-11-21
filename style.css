@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: Karla;
+  font-size: 16px;
+  font-weight: 400;
+  color: hsl(204, 43%, 93%);
+  border: none;
+}
+
+h1,
+h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: white;
+}
+
+section#community-section {
+  background-color: white;
+}
+section#community-section h1 {
+  color: hsl(179, 62%, 43%);
+}
+section#community-section p.emphasis-text {
+  color: hsl(71, 73%, 54%);
+  font-weight: 700;
+}
+section#community-section p {
+  color: hsl(218, 22%, 67%);
+}
+
+section#pricing-section {
+  background-color: hsl(179, 62%, 43%);
+}
+section#pricing-section p.price-rate {
+  color: rgba(229, 239, 245, 0.5);
+}
+section#pricing-section p.price-rate span {
+  color: white;
+  font-size: 2rem;
+}
+section#pricing-section button {
+  background-color: hsl(71, 73%, 54%);
+  border-radius: 5px;
+  color: white;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.15);
+}
+
+section#advantages-section {
+  background-color: rgba(42, 178, 175, 0.8);
+}
+
+ul li {
+  list-style: none;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: hsl(204, 43%, 93%);
+}
+body main.container {
+  width: 311px;
+  height: -moz-fit-content;
+  height: fit-content;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  display: grid;
+  grid-template-rows: 267px 1fr 1fr;
+  gap: 0;
+  box-shadow: 0 20px 50px -5px rgba(152, 166, 189, 0.5);
+}
+body main.container section {
+  padding: 0 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+body main.container section#community-section {
+  border-radius: 5px 5px 0 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+body main.container section#community-section p {
+  font-size: 0.85rem;
+  line-height: 1.6rem;
+}
+body main.container section#community-section p.emphasis-text {
+  font-size: 0.92rem;
+  line-height: 1.25rem;
+}
+body main.container section#pricing-section {
+  padding-top: 25px;
+  padding-bottom: 24px;
+}
+body main.container section#pricing-section button {
+  width: 100%;
+  height: 48px;
+}
+body main.container section#advantages-section {
+  width: 100%;
+  height: 227px;
+  padding-top: 28px;
+  padding-bottom: 25px;
+  border-radius: 0 0 5px 5px;
+}
