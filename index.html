@@ -4,6 +4,11 @@
     <title>Frontend Mentor | Single Price Grid Component</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Join our coding community with expert tutorials, code reviews, and more. Start today with a 30-day money-back guarantee."
+    />
+
     <link rel="stylesheet" href="style.css" />
     <link
       rel="icon"
@@ -20,32 +25,39 @@
   </head>
   <body>
     <main class="container">
-      <section class="blog" id="first-blog">
-        <h2>Join our community</h2>
-        <p>30-day, hassle-free money back guarantee</p>
+      <section
+        class="detail-section"
+        id="community-section"
+        role="region"
+        aria-labelledby="info-heading"
+      >
+        <h1>Join our community</h1>
+        <p class="emphasis-text">30-day, hassle-free money back guarantee</p>
         <p>
           Gain access to our full library of tutorials along with expert code
           reviews. Perfect for any developers who are serious about honing their
           skills.
         </p>
       </section>
-      <section class="blog" id="second-blog">
+      <section class="detail-section" id="pricing-section">
         <h2>Monthly Subscription</h2>
-        <p><span>&dollar;29</span> per month</p>
-        <p>Full access for less than &dollar;1 a day</p>
-        <button>Sign Up</button>
+        <p class="price-rate"><span>$29</span> per month</p>
+        <p>Full access for less than $1 a day</p>
+        <button aria-label="Sign up for the monthly subscription">
+          Sign Up
+        </button>
       </section>
-      <section class="blog" id="thrid-blog">
+      <section class="detail-section" id="advantages-section">
         <h2>Why Us</h2>
-        <p>
-          Tutorials by industry experts<br />
-          Peer &amp; expert code review<br />
-          Coding exercises<br />
-          Access to our GitHub repos<br />
-          Community forum<br />
-          Flashcard decks<br />
-          New videos every week
-        </p>
+        <ul>
+          <li>Tutorials by industry experts</li>
+          <li>Peer &amp; expert code review</li>
+          <li>Coding exercises</li>
+          <li>Access to our GitHub repos</li>
+          <li>Community forum</li>
+          <li>Flashcard decks</li>
+          <li>New videos every week</li>
+        </ul>
       </section>
     </main>
 
