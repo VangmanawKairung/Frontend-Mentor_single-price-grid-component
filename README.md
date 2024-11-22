@@ -41,7 +41,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Single price grid component by HTML and CSS (Sass)](https://www.frontendmentor.io/solutions/single-price-grid-component-by-html-and-css-sass-lko1qj6JDz)
+- Solution URL: [Single price grid component by HTML and CSS (Sass)](https://www.frontendmentor.io/solutions/single-price-grid-component-by-html-and-css-sass-gsxds9LXCw)
 - Live Site URL: [Frontend Mentor | Single price grid component](https://vangmanawkairung.github.io/Frontend-Mentor_single-price-grid-component/)
 
 ## My process
