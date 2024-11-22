@@ -26,9 +26,16 @@ $grayish-blue: hsl(218, 22%, 67%);
   border: none;
 }
 
+h1 {
+  font-size: 1.2rem;
+}
+
+h2 {
+  font-size: 1.1rem;
+}
+
 h1,
 h2 {
-  font-size: 1.2rem;
   font-weight: 700;
   color: white;
 }
@@ -54,11 +61,10 @@ section#pricing-section {
   background-color: $cyan;
 
   p.price-rate {
-    color: rgba($color: $light-gray, $alpha: 0.5);
+    color: rgba($color: white, $alpha: 0.5);
 
     span {
       color: white;
-      font-size: 2rem;
     }
   }
 
@@ -72,10 +78,10 @@ section#pricing-section {
 
 section#advantages-section {
   background-color: rgba($color: $cyan, $alpha: 0.8);
-}
-
-ul li {
-  list-style: none;
+  ul li {
+    list-style: none;
+    color: rgba($color: white, $alpha: 0.5);
+  }
 }
 
 body {
@@ -124,17 +130,86 @@ body {
       padding-top: 25px;
       padding-bottom: 24px;
 
+      h2 {
+        margin-bottom: -10px;
+      }
+
+      p {
+        font-size: 0.97rem;
+      }
+
+      p.price-rate {
+        display: flex;
+        align-items: center;
+        margin-bottom: -20px;
+
+        span {
+          font-size: 2rem;
+          margin-right: 10px;
+        }
+      }
+
       button {
         @include set-size(100%, 48px);
       }
     }
 
     section#advantages-section {
-      @include set-size(100%, 227px);
-
-      padding-top: 28px;
+      padding-top: 25px;
       padding-bottom: 25px;
       border-radius: 0 0 5px 5px;
+
+      ul li {
+        font-size: 0.85rem;
+        line-height: 1.25rem;
+      }
+    }
+  }
+}
+
+@media (min-width: 1440px) {
+  body {
+    main.container {
+      @include set-size(635px, 475px);
+
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: 215px 1fr;
+
+      section {
+        @include set-size(100%, 100%);
+      }
+
+      section#community-section {
+        grid-column: 1 / span 2;
+        padding: 40px 50px 40px 40px;
+
+        h1 {
+          font-size: 1.48rem;
+          margin-bottom: 15px;
+        }
+
+        p {
+          font-size: 0.98rem;
+        }
+
+        p.emphasis-text {
+          font-size: 1.1rem;
+        }
+      }
+
+      section#pricing-section {
+        grid-row: 2;
+        border-radius: 0 0 0 5px;
+        padding: 40px;
+      }
+
+      section#advantages-section {
+        grid-row: 2;
+        grid-column: 2;
+        border-radius: 0 0 5px 0;
+        padding: 40px;
+      }
     }
   }
 }
