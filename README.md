@@ -1,24 +1,23 @@
 # Frontend Mentor - Single price grid component solution
 
-This is a solution to the [Single price grid component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Single price grid component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
-- [Frontend Mentor - Single price grid component solution](#frontend-mentor---single-price-grid-component-solution)
-  - [Table of contents](#table-of-contents)
-  - [Overview](#overview)
-    - [The challenge](#the-challenge)
-    - [Screenshot](#screenshot)
-      - [Mobile view](#mobile-view)
-      - [Desktop view](#desktop-view)
-    - [Links](#links)
-  - [My process](#my-process)
-    - [Built with](#built-with)
-    - [What I learned](#what-i-learned)
-    - [Continued development](#continued-development)
-    - [Useful resources](#useful-resources)
-  - [Author](#author)
-  - [Acknowledgments](#acknowledgments)
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+  - [AI Collaboration](#ai-collaboration)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
+
+**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -31,52 +30,93 @@ Users should be able to:
 
 ### Screenshot
 
-#### Mobile view
+![](./screenshot.jpg)
 
-![](./sources/screenshots/Mobile%20view.png)
+Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
-#### Desktop view
+Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
 
-![](./sources/screenshots/Desktop%20view.png)
+Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
+
+**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
 ### Links
 
-- Solution URL: [Single price grid component by HTML and CSS (Sass)](https://www.frontendmentor.io/solutions/single-price-grid-component-by-html-and-css-sass-gsxds9LXCw)
-- Live Site URL: [Frontend Mentor | Single price grid component](https://vangmanawkairung.github.io/Frontend-Mentor_single-price-grid-component/)
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
 
 ### Built with
 
 - Semantic HTML5 markup
-- CSS with SCSS Preprocessor
-- CSS custom properties (via SCSS Variables)
+- CSS custom properties
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- Responsive design
-- Typography with Google Fonts
-- Box Shadows and Backgrounds
-- ARIA Accessibility Features
+- [React](https://reactjs.org/) - JS library
+- [Next.js](https://nextjs.org/) - React framework
+- [Styled Components](https://styled-components.com/) - For styles
+
+**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-I gained a deeper understanding of building responsive layouts using **CSS Grid** and **Flexbox**, which helped me structure content effectively across different screen sizes. I also improved my skills in writing **semantic HTML5 markup**, ensuring the code is accessible and well-structured. By using **SCSS**, I learned to utilize variables, mixins, and nesting to write cleaner and more maintainable styles. Additionally, I practiced implementing a **mobile-first workflow**, which reinforced the importance of designing for smaller screens before scaling up for larger devices. This project also enhanced my knowledge of **Google Fonts integration**, **box shadows**, and leveraging **ARIA attributes** for accessibility. Overall, this challenge was a great opportunity to refine both my design and coding skills.
+Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+
+To see how you can add code snippets, see below:
+
+```html
+<h1>Some HTML code I'm proud of</h1>
+```
+```css
+.proud-of-this-css {
+  color: papayawhip;
+}
+```
+```js
+const proudOfThisFunc = () => {
+  console.log('🎉')
+}
+```
+
+If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+
+**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
-I aim to refine my skills by exploring more advanced techniques in **CSS Grid** and **Flexbox**, such as creating more complex layouts and animations. I plan to deepen my understanding of **SCSS**, focusing on reusable mixins and better structuring for larger projects. Improving accessibility is another priority, where I'll practice implementing comprehensive **ARIA roles** and ensuring compatibility with screen readers. Additionally, I want to adopt **JavaScript interactivity** to enhance user engagement and explore frameworks like **React** for dynamic content. Lastly, I will work on optimizing performance, including better asset management and minimizing CSS to create faster, more efficient web pages.
+Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+
+**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 ### Useful resources
 
-- [grid - CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/grid) - This website helps me to handle with the grid display layout
-- [A Complete Guide to CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) - This website clearifies the grid layout attributes.
+- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+
+**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+
+### AI Collaboration
+
+Describe how you used AI tools (if any) during this project. This helps demonstrate your ability to work effectively with AI assistants.
+
+- What tools did you use (e.g., ChatGPT, Claude, GitHub Copilot)?
+- How did you use them (e.g., debugging, generating boilerplate, brainstorming solutions)?
+- What worked well? What didn't?
+
+**Note: Delete this note and the content above if you didn't use AI, or replace with your own experience.**
 
 ## Author
 
-- Frontend Mentor - [@VangmanawKairung](https://www.frontendmentor.io/profile/VangmanawKairung)
-- GitHub - [VangmanawKairung](https://github.com/VangmanawKairung)
+- Website - [Add your name here](https://www.your-site.com)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+
+**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 
-I would like to express my gratitude to **Frontend Mentor** for providing an engaging and well-structured challenge that allowed me to enhance my skills in web development. Special thanks to **macOS** for its seamless performance and tools that ensured an efficient workflow, and **Google Chrome** for its robust developer tools, which were invaluable for debugging and testing responsiveness. I also appreciate the role of **Visual Studio Code**, which made coding a smooth and enjoyable experience with its intuitive features and extensions. Additionally, I am grateful for the various online resources, documentation, and tutorials that guided me through best practices and troubleshooting. These tools and platforms collectively supported me in successfully completing this challenge and growing as a developer.
+This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+
+**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
