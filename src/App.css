@@ -12,6 +12,7 @@
   --ff-body: "Karla", sans-serif;
   --fs-regular: 16px;
   --fw-regular: 400;
+  --fw-semi: 600;
   --fw-bold: 700;
 }
 
@@ -150,6 +151,7 @@ body {
 
 .price-card__price {
   font-size: 1.9rem;
+  font-weight: var(--fw-semi);
 }
 
 .price-card__billing-info {
@@ -170,6 +172,7 @@ body {
   align-items: center;
   justify-content: center;
   font-size: 0.95rem;
+  font-weight: var(--fw-bold);
 }
 
 .price-card__cta-btn:hover {
