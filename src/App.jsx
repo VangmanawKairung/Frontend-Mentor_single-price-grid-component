@@ -6,16 +6,16 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="page-wrapper">
-      <main className="page-wrapper__main">
+    <>
+      <main className="main-content">
         <article className="price-card">
-          <Hero />
-          <Price />
-          <About />
+            <Hero />
+            <Price />
+            <About />
         </article>
       </main>
       <Footer />
-    </div>
+    </>
   );
 }
 

@@ -1,0 +1,227 @@
+:root {
+  /* Colors */
+  --clr-primary-teal-500: hsl(179, 62%, 43%);
+  --clr-primary-green-400: hsl(71, 73%, 54%);
+  --clr-neutral-teal-100: hsl(204, 43%, 93%);
+  --clr-neutral-gray-500: hsl(218, 22%, 67%);
+  --clr-white: white;
+  --clr-teal-300: hsl(174.4, 41.9%, 64.9%);
+  --clr-cta-btn-hover: hsl(71, 64%, 69%);
+
+  /* Typography */
+  --ff-body: "Karla", sans-serif;
+  --fs-regular: 16px;
+  --fw-regular: 400;
+  --fw-bold: 700;
+}
+
+body {
+  font-family: var(--ff-body);
+  font-size: var(--fs-regular);
+  font-weight: var(--fw-regular);
+  background-color: var(--clr-neutral-teal-100);
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+}
+
+.price-card {
+  display: grid;
+  grid-template-areas:
+    "hero"
+    "pricing"
+    "features";
+  border-radius: 4px;
+  overflow: hidden;
+  max-width: 320px;
+
+  @media (min-width: 1024px) {
+    grid-template-areas:
+      "hero hero"
+      "pricing features";
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr auto;
+
+    max-width: 634px;
+    justify-self: center;
+  }
+}
+
+.price-card__hero,
+.price-card__pricing,
+.price-card__features {
+  padding: 0 24px;
+
+  @media (min-width: 1024px) {
+    padding: 0 40px;
+  }
+}
+
+.price-card__hero {
+  background-color: var(--clr-white);
+  color: var(--clr-neutral-gray-500);
+
+  grid-area: hero;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 18px;
+  padding-top: 28px;
+  padding-bottom: 30px;
+
+  @media (min-width: 1024px) {
+    gap: 12px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+.price-card__title {
+  color: var(--clr-primary-teal-500);
+  font-weight: var(--fw-bold);
+
+  font-size: 1.22rem;
+  margin-bottom: 4px;
+
+  @media (min-width: 1024px) {
+    font-size: 1.4rem;
+    margin-bottom: 12px;
+  }
+}
+
+.price-card__subtitle {
+  color: var(--clr-primary-green-400);
+
+  font-size: 0.96rem;
+
+  @media (min-width: 1024px) {
+    font-size: 1.1rem;
+  }
+}
+
+.price-card__description {
+  font-size: 0.87rem;
+  line-height: 1.85;
+
+  @media (min-width: 1024px) {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+}
+
+.price-card__pricing {
+  background-color: var(--clr-primary-teal-500);
+  color: var(--clr-neutral-teal-100);
+
+  grid-area: pricing;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-top: 26px;
+  padding-bottom: 22px;
+
+  @media (min-width: 1024px) {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+.price-card__section-title {
+  font-size: 1.1rem;
+  margin-bottom: 3px;
+}
+
+.price-card__amount {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.price-card__price {
+  font-size: 1.9rem;
+}
+
+.price-card__billing-info {
+  font-size: 0.98rem;
+  margin-top: -5px;
+  margin-bottom: 15px;
+}
+
+.price-card__cta-btn {
+  text-align: center;
+  text-decoration: none;
+  color: var(--clr-white);
+  width: 100%;
+  height: 48px;
+  background-color: var(--clr-primary-green-400);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.95rem;
+}
+
+.price-card__cta-btn:hover {
+  background-color: var(--clr-cta-btn-hover);
+}
+
+.price-card__cta-btn:focus-visible {
+  background-color: var(--clr-cta-btn-hover);
+  outline: 3px solid var(--clr-white);
+  outline-offset: 2px;
+}
+
+.price-card__features {
+  background-color: var(--clr-teal-300);
+  color: var(--clr-neutral-teal-100);
+
+  grid-area: features;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+
+  @media (min-width: 1024px) {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+.price-card__section-title {
+  font-size: 1.1rem;
+}
+
+.price-card__feature-list {
+  font-size: 0.82rem;
+  line-height: 1.5;
+}
+
+.footer {
+  text-align: center;
+  font-size: 0.5rem;
+  align-self: center;
+  margin-bottom: 8px;
+  color: var(--clr-neutral-gray-500);
+
+  .footer__text a {
+    text-decoration: none;
+    font-weight: var(--fw-bold);
+    color: var(--clr-neutral-gray-500);
+  }
+
+  .footer__text a:hover {
+    color: var(--clr-teal-300);
+  }
+}
