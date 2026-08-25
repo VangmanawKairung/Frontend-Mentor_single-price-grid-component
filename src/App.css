@@ -123,7 +123,7 @@ body {
 
 .price-card__pricing {
   background-color: var(--clr-primary-teal-500);
-  color: var(--clr-neutral-teal-100);
+  color: var(--clr-white);
 
   grid-area: pricing;
   display: flex;
@@ -187,7 +187,7 @@ body {
 
 .price-card__features {
   background-color: var(--clr-teal-400);
-  color: var(--clr-neutral-teal-100);
+  color: var(--clr-white);
 
   grid-area: features;
   display: flex;
