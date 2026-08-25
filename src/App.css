@@ -7,6 +7,7 @@
   --clr-white: white;
   --clr-teal-400: hsla(179, 62%, 43%, 0.907);
   --clr-cta-btn-hover: hsl(71, 64%, 69%);
+  --clr-card-shadow: hsla(216, 22%, 67%, 0.558);
 
   /* Typography */
   --ff-body: "Karla", sans-serif;
@@ -45,6 +46,7 @@ body {
   border-radius: 4px;
   overflow: hidden;
   max-width: 320px;
+  box-shadow: 0 15px 20px var(--clr-card-shadow);
 
   @media (min-width: 1024px) {
     grid-template-areas:
