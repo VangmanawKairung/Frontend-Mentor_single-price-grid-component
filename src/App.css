@@ -5,7 +5,7 @@
   --clr-neutral-teal-100: hsl(204, 43%, 93%);
   --clr-neutral-gray-500: hsl(218, 22%, 67%);
   --clr-white: white;
-  --clr-teal-300: hsl(174.4, 41.9%, 64.9%);
+  --clr-teal-400: hsla(179, 62%, 43%, 0.907);
   --clr-cta-btn-hover: hsl(71, 64%, 69%);
 
   /* Typography */
@@ -183,7 +183,7 @@ body {
 }
 
 .price-card__features {
-  background-color: var(--clr-teal-300);
+  background-color: var(--clr-teal-400);
   color: var(--clr-neutral-teal-100);
 
   grid-area: features;
@@ -222,6 +222,6 @@ body {
   }
 
   .footer__text a:hover {
-    color: var(--clr-teal-300);
+    color: var(--clr-teal-400);
   }
 }
