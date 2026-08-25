@@ -47,8 +47,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Single Price Grid Component solution using React, Vite, CSS Grid & BEM](https://www.frontendmentor.io/solutions/single-price-grid-component-solution-using-react-vite-css-grid-and-bem-pczRGp_80M)
+- Live Site URL: [Frontend Mentor | Single Price Grid Component](https://challenged-by-frontend-mentor.github.io/single-price-grid-component/)
 
 ## My process
 
